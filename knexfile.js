@@ -5,9 +5,9 @@ module.exports = {
   development: {
     client: 'mysql',
     connection: {
-      host: 'localhost',
-      user: 'root',
-      password: '',
+      host: 'mysql',
+      user: 'senai',
+      password: 'senai',
       database: 'senaidev'
     },
     migrations: {
